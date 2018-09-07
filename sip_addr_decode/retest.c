@@ -39,8 +39,8 @@ int main(int argc, char *argv[])
 	re_printf("    user     : %r\n", &uri->user);
 	re_printf("    password : %r\n", &uri->password);
 	re_printf("    host     : %r\n", &uri->host);
-	re_printf("    af       : %d\n", &uri->af);
-	re_printf("    port     : %d\n", &uri->port);
+	re_printf("    af       : %d\n", uri->af);
+	re_printf("    port     : %u\n", uri->port);
 	re_printf("    params   : %r\n", &uri->params);
 	re_printf("    headers  : %r\n", &uri->headers);
 
