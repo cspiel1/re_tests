@@ -1,7 +1,7 @@
 #
 # Makefile
 #
-# Copyright (C) 2011 Creytiv.com
+# Copyright (C) 2018 commend.com
 #
 
 
